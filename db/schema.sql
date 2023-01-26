@@ -3,7 +3,7 @@ CREATE DATABASE employees_db;
 
 USE employees_db;
 
-CREATE TABLE depts (
+CREATE TABLE departments (
     id INT NOT NULL AUTO_INCREMENT,
     dept_name VARCHAR(30) NOT NULL,
     PRIMARY KEY(id)
@@ -27,5 +27,4 @@ CREATE TABLE employee (
     manager_id INT,
     PRIMARY KEY(id)
 )
-
-
+SHOW TABLES;
