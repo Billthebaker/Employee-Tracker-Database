@@ -10,6 +10,4 @@ HOW TO USE:
 https://drive.google.com/file/d/1po1dNUxGUayPhGXwgYfqfBzc4LCsLSfX/view -- VIDEO WALKTHRU
 
 
-[!alt text][def]
-
-[def]: ./assets/trackerpic.PNG
+[!Alt text](./assets/trackerpic.PNG?raw=true)
