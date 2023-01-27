@@ -98,12 +98,13 @@ function addDepartment() {
     .prompt([
       {
         type: 'input',
-        name: 'department_name',
+        name: 'dept_name',
         message: 'Enter Department Name'
       },
     ])
     .then((answers) => {
       console.log(answers)
+      console.log(answers.department_name)
       const sql = `INSERT INTO departments SET ?`;
       db.query(sql, answers, (err, result) => {
         if (err) {
@@ -130,7 +131,7 @@ function addRole() {
       },
       {
         type: 'input',
-        name: 'department_id',
+        name: 'dept_id',
         message: 'Enter Role ID'
       },
     ])
